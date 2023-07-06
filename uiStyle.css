@@ -1,0 +1,128 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+   width: 100%;
+   /* height: 100vh; */
+   background-color: black;
+   /* background-color: blueviolet; */
+   background: linear-gradient();
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 30px 0;
+   /* @media screen and(max-width:943px) {
+    flex-wrap: wrap;
+} */
+}
+.wrap{
+   width: 90%;
+   height: 90%; 
+   /* padding: 3px 0; */
+   /* background-color: bisque; */
+}
+.top{
+    width: 100%;
+    /* height: 20%; */
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-size: larger;
+    font-style: oblique;
+    font-weight: bolder;
+    color: rgb(240, 5, 169);
+    @media screen and (max-width:400px) {
+        display: none;
+    }
+}
+span{
+    color: rgba(190, 167, 37, 0.582);
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    width: 80%;
+}
+nav{
+    color: bisque;
+    font-weight: bold;
+    opacity: 0.7;
+    @media  screen and (max-width:580px) {
+        display: none;
+    }
+}
+.visuals{
+    width: 100%;
+    /* height: 80%; */
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* @media screen and(max-width:943px) {
+        flex-direction: column;
+    } */
+}
+.oneSet{
+    width: 100%;
+    /* height: 300px; */
+    /* background-color: azure; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    @media screen and (max-width:843px) {
+        flex-wrap: wrap;
+    }
+    
+    /* margin-top: 5px; */
+    /* @media screen and (max-width:700px) {
+        flex-direction: column;
+    }
+    @media screen and (max-width:696px) {
+        img{
+            width: 90%;
+            object-fit: cover;
+        }
+    } */
+}
+.twoSet{
+    width: 100%;
+    /* height: 300px; */
+    /* background-color: rgb(23, 121, 121); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    @media screen and ( max-width:841px) {
+        flex-wrap: wrap;
+    }
+}
+img{
+    width: 280px;
+    height: 230px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+@media screen and (max-width:696px) {
+    .oneSet img{
+        width: 90%;
+        object-fit: fill;
+    }
+
+    /* img{
+        width: 90%;
+        object-fit: cover;
+    } */
+}
+@media screen and ( max-width:841px) {
+    .twoSet img{
+        width: 90%;
+        object-fit: cover;
+    }
+}
